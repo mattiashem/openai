@@ -1,0 +1,7 @@
+services:
+  openai:
+    build: .
+    volumes:
+      - .:/code
+    command: python app.py
+
